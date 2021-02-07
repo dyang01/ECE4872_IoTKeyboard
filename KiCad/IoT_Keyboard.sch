@@ -1,4 +1,109 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Keebio:Elite-C U?
+U 1 1 601F2CD8
+P 3500 3600
+F 0 "U?" H 3500 4437 60  0000 C CNN
+F 1 "Elite-C" H 3500 4331 60  0000 C CNN
+F 2 "" V 4550 1100 60  0001 C CNN
+F 3 "" V 4550 1100 60  0001 C CNN
+	1    3500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 601FE667
+P 2650 3350
+F 0 "#PWR?" H 2650 3100 50  0001 C CNN
+F 1 "GND" H 2655 3177 50  0000 C CNN
+F 2 "" H 2650 3350 50  0001 C CNN
+F 3 "" H 2650 3350 50  0001 C CNN
+	1    2650 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3350 2650 3350
+Connection ~ 2650 3350
+Wire Wire Line
+	2800 3250 2650 3250
+Wire Wire Line
+	2650 3250 2650 3350
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6020EE71
+P 4600 3300
+F 0 "SW?" H 4600 3585 50  0000 C CNN
+F 1 "SW_Push" H 4600 3494 50  0000 C CNN
+F 2 "" H 4600 3500 50  0001 C CNN
+F 3 "~" H 4600 3500 50  0001 C CNN
+	1    4600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3250 4300 3250
+Wire Wire Line
+	4400 3250 4400 3300
+Wire Wire Line
+	4200 3150 4800 3150
+Wire Wire Line
+	4800 3300 4800 3150
+Connection ~ 4800 3150
+Wire Wire Line
+	4800 3150 4950 3150
+$Comp
+L power:GND #PWR?
+U 1 1 60210421
+P 4950 3250
+F 0 "#PWR?" H 4950 3000 50  0001 C CNN
+F 1 "GND" H 4955 3077 50  0000 C CNN
+F 2 "" H 4950 3250 50  0001 C CNN
+F 3 "" H 4950 3250 50  0001 C CNN
+	1    4950 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3150 4950 3250
+$Comp
+L Device:R R?
+U 1 1 60211719
+P 4300 2750
+F 0 "R?" H 4370 2796 50  0000 L CNN
+F 1 "10k" H 4370 2705 50  0000 L CNN
+F 2 "" V 4230 2750 50  0001 C CNN
+F 3 "~" H 4300 2750 50  0001 C CNN
+	1    4300 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3250 4300 2900
+Connection ~ 4300 3250
+Wire Wire Line
+	4300 3250 4400 3250
+$Comp
+L power:+5V #PWR?
+U 1 1 602126FC
+P 4300 2550
+F 0 "#PWR?" H 4300 2400 50  0001 C CNN
+F 1 "+5V" H 4315 2723 50  0000 C CNN
+F 2 "" H 4300 2550 50  0001 C CNN
+F 3 "" H 4300 2550 50  0001 C CNN
+	1    4300 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 2600 4300 2550
 $EndSCHEMATC
