@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name Keebio)(type KiCad)(uri C:/Users/%username%/Documents/GitHub/ECE4872_IoTKeyboard/KiCad/Library)(options "")(descr ""))
+  (lib (name Keebio)(type KiCad)(uri C:/Users/%username%/Documents/GitHub/ECE4872_IoTKeyboard/KiCad/Kicad_Library)(options "")(descr ""))
+  (lib (name ai03)(type KiCad)(uri C:/Users/Daniel/Documents/GitHub/ECE4872_IoTKeyboard/KiCad/ai03_Library/MX_Alps_Hybrid.pretty)(options "")(descr ""))
 )
