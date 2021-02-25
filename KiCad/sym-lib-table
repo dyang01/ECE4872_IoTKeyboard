@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name Keebio)(type Legacy)(uri C:/Users/%username%/Documents/GitHub/ECE4872_IoTKeyboard/KiCad/Kicad_Library/keebio.lib)(options "")(descr ""))
   (lib (name ai03)(type Legacy)(uri "C:/Users/%username/Documents/GitHub/ECE4872_IoTKeyboard/KiCad/ai03_Library/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name IoT_Keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/IoT_Keyboard-rescue.lib)(options "")(descr ""))
 )
