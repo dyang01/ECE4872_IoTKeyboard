@@ -112,4 +112,121 @@ U 60280DDF
 F0 "KeyMatrix" 50
 F1 "KeyMatrix.sch" 50
 $EndSheet
+$Comp
+L power:+5V #PWR?
+U 1 1 6035BBF9
+P 5000 3000
+F 0 "#PWR?" H 5000 2850 50  0001 C CNN
+F 1 "+5V" H 5015 3173 50  0000 C CNN
+F 2 "" H 5000 3000 50  0001 C CNN
+F 3 "" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3350 4850 3350
+Wire Wire Line
+	4850 3350 4850 3000
+Wire Wire Line
+	4850 3000 5000 3000
+$Comp
+L Device:C_Small C?
+U 1 1 6035F335
+P 1900 3950
+F 0 "C?" H 1992 3996 50  0000 L CNN
+F 1 "10uF" H 1992 3905 50  0000 L CNN
+F 2 "" H 1900 3950 50  0001 C CNN
+F 3 "~" H 1900 3950 50  0001 C CNN
+	1    1900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60360918
+P 1600 3950
+F 0 "C?" H 1692 3996 50  0000 L CNN
+F 1 "0.1uF" H 1692 3905 50  0000 L CNN
+F 2 "" H 1600 3950 50  0001 C CNN
+F 3 "~" H 1600 3950 50  0001 C CNN
+	1    1600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60360FBB
+P 1300 3950
+F 0 "C?" H 1392 3996 50  0000 L CNN
+F 1 "0.1uF" H 1392 3905 50  0000 L CNN
+F 2 "" H 1300 3950 50  0001 C CNN
+F 3 "~" H 1300 3950 50  0001 C CNN
+	1    1300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 603612C2
+P 1000 3950
+F 0 "C?" H 1092 3996 50  0000 L CNN
+F 1 "0.1uF" H 1092 3905 50  0000 L CNN
+F 2 "" H 1000 3950 50  0001 C CNN
+F 3 "~" H 1000 3950 50  0001 C CNN
+	1    1000 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 4050 1300 4050
+Wire Wire Line
+	1300 4050 1450 4050
+Connection ~ 1300 4050
+Wire Wire Line
+	1600 4050 1900 4050
+Connection ~ 1600 4050
+Wire Wire Line
+	1900 3850 1900 3800
+Wire Wire Line
+	1900 3800 1600 3800
+Wire Wire Line
+	1600 3800 1600 3850
+Wire Wire Line
+	1600 3800 1450 3800
+Wire Wire Line
+	1300 3800 1300 3850
+Connection ~ 1600 3800
+Wire Wire Line
+	1300 3800 1000 3800
+Wire Wire Line
+	1000 3800 1000 3850
+Connection ~ 1300 3800
+$Comp
+L power:+5V #PWR?
+U 1 1 60364907
+P 1450 3700
+F 0 "#PWR?" H 1450 3550 50  0001 C CNN
+F 1 "+5V" H 1465 3873 50  0000 C CNN
+F 2 "" H 1450 3700 50  0001 C CNN
+F 3 "" H 1450 3700 50  0001 C CNN
+	1    1450 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 603653B9
+P 1450 4150
+F 0 "#PWR?" H 1450 3900 50  0001 C CNN
+F 1 "GND" H 1455 3977 50  0000 C CNN
+F 2 "" H 1450 4150 50  0001 C CNN
+F 3 "" H 1450 4150 50  0001 C CNN
+	1    1450 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 3800 1450 3700
+Connection ~ 1450 3800
+Wire Wire Line
+	1450 3800 1300 3800
+Wire Wire Line
+	1450 4050 1450 4150
+Connection ~ 1450 4050
+Wire Wire Line
+	1450 4050 1600 4050
 $EndSCHEMATC
