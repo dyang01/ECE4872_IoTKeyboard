@@ -23376,7 +23376,7 @@ ROW2
 Text GLabel 1100 3550 0    50   Input ~ 0
 ROW3
 Text GLabel 1100 4250 0    50   Input ~ 0
-ROW5
+ROW4
 Text GLabel 1750 800  1    50   Input ~ 0
 COL0
 Text GLabel 2450 800  1    50   Input ~ 0
